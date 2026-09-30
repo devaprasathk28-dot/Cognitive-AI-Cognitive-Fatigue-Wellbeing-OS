@@ -1,0 +1,1 @@
+user_id,session_id,timestamp,keys_per_min,avg_pause_sec,max_pause_sec,error_rate,task_duration_sec,interaction_variance,session_length_min,fatigue_level

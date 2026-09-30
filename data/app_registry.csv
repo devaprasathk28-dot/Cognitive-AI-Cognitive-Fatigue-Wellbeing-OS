@@ -1,0 +1,18 @@
+exe_name,display_name,category
+code.exe,VS Code,Development
+chrome.exe,Google Chrome,Browsing
+explorer.exe,File Explorer,Utilities
+windowsterminal.exe,Windows Terminal,Development
+cmd.exe,Command Prompt,Utilities
+powershell.exe,PowerShell,Development
+discord.exe,Discord,Communication
+zoom.exe,Zoom,Communication
+spotify.exe,Spotify,Entertainment
+vlc.exe,VLC Media Player,Entertainment
+notepad.exe,Notepad,Productivity
+excel.exe,Microsoft Excel,Productivity
+word.exe,Microsoft Word,Productivity
+explorer.exe,File Explorer,Utilities
+windowsterminal.exe,Windows Terminal,Development
+taskmgr.exe,Task Manager,Utilities
+chrome.exe,Google Chrome,Browsing

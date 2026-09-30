@@ -1,0 +1,22 @@
+{
+  "experience_level": "beginner",
+  "learning_style": "balanced",
+  "focus_level": 0.5,
+  "distraction_level": 0.0,
+  "preferred_length": "short",
+  "topics": {
+    "hi": 13,
+    "tell": 2,
+    "about": 2,
+    "ma": 1,
+    "me": 1,
+    "summarize": 2,
+    "my": 2,
+    "day": 2,
+    "why": 3,
+    "am": 3,
+    "i": 3,
+    "losing": 3,
+    "focus?": 3
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-03-16 19:52:37",
+  "current_fatigue": 0,
+  "predicted_30min_fatigue": 0,
+  "predicted_2h_fatigue": 0,
+  "predicted_tomorrow_burnout": 0.15,
+  "recommended_action": "Continue work"
+}

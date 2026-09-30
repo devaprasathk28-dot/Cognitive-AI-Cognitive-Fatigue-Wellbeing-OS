@@ -1,0 +1,6 @@
+{
+    "strict_mode": true,
+    "notifications": true,
+    "ai_enabled": true,
+    "lstm_enabled": false
+}

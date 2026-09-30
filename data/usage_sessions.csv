@@ -1,0 +1,27 @@
+session_id,app_display_name,category,activity_intent,start_time,end_time,duration_sec,confidence_avg,focus_type
+1,System Idle Process,Unknown,General Usage,2026-02-04 23:19:47,2026-02-04 23:24:42,300,0.3,Focused
+2,VS Code,Development,Coding / Technical Work,2026-02-10 21:52:49,2026-02-10 21:52:49,5,0.3,Shallow / Distracted
+3,Notepad,Productivity,Office / Writing Work,2026-02-10 21:52:55,2026-02-10 21:53:00,10,0.3,Shallow / Distracted
+4,Searchhost,Unknown,General Usage,2026-02-10 21:53:05,2026-02-10 21:53:05,5,0.3,Shallow / Distracted
+5,Linkedin,Browsing,Online Browsing,2026-02-10 21:53:10,2026-02-10 21:53:10,5,0.3,Shallow / Distracted
+6,Notepad,Productivity,Office / Writing Work,2026-02-10 21:53:15,2026-02-10 21:53:15,5,0.3,Shallow / Distracted
+7,File Explorer,Utilities,General Usage,2026-02-10 21:53:20,2026-02-10 21:53:20,5,0.3,Shallow / Distracted
+8,Searchhost,Unknown,General Usage,2026-02-10 21:53:25,2026-02-10 21:53:30,10,0.3,Shallow / Distracted
+9,Microsoft Word,Productivity,Office / Writing Work,2026-02-10 21:53:35,2026-02-10 21:53:40,10,0.3,Shallow / Distracted
+10,VS Code,Development,Coding / Technical Work,2026-02-10 21:53:45,2026-02-10 21:53:45,5,0.3,Shallow / Distracted
+11,Applicationframehost,Unknown,General Usage,2026-02-10 21:53:50,2026-02-10 21:54:00,15,0.3,Shallow / Distracted
+12,Searchhost,Unknown,General Usage,2026-02-10 21:54:05,2026-02-10 21:54:10,10,0.3,Shallow / Distracted
+13,Applicationframehost,Unknown,General Usage,2026-02-10 21:54:15,2026-02-10 21:54:15,5,0.3,Shallow / Distracted
+14,VS Code,Development,Coding / Technical Work,2026-02-10 21:54:20,2026-02-10 21:54:40,25,0.3,Shallow / Distracted
+15,Google Chrome,Browsing,Online Browsing,2026-02-10 21:54:45,2026-02-10 21:54:50,10,0.3,Shallow / Distracted
+16,VS Code,Development,Coding / Technical Work,2026-02-10 21:54:55,2026-02-10 21:55:00,10,0.3,Shallow / Distracted
+17,VS Code,Development,Coding / Technical Work,2026-02-10 22:09:16,2026-02-10 22:09:16,5,0.3,Shallow / Distracted
+18,File Explorer,Utilities,General Usage,2026-02-10 22:09:21,2026-02-10 22:09:21,5,0.3,Shallow / Distracted
+19,Searchhost,Unknown,General Usage,2026-02-10 22:09:26,2026-02-10 22:09:26,5,0.3,Shallow / Distracted
+20,Linkedin,Browsing,Online Browsing,2026-02-10 22:09:31,2026-02-10 22:09:31,5,0.3,Shallow / Distracted
+21,Searchhost,Unknown,General Usage,2026-02-10 22:09:36,2026-02-10 22:09:36,5,0.3,Shallow / Distracted
+22,Applicationframehost,Unknown,General Usage,2026-02-10 22:09:41,2026-02-10 22:09:46,10,0.3,Shallow / Distracted
+23,VS Code,Development,Coding / Technical Work,2026-02-10 22:09:51,2026-02-10 22:10:01,15,0.3,Shallow / Distracted
+24,Searchhost,Unknown,General Usage,2026-02-10 22:10:06,2026-02-10 22:10:06,5,0.3,Shallow / Distracted
+25,Notepad,Productivity,Office / Writing Work,2026-02-10 22:10:11,2026-02-10 22:10:11,5,0.3,Shallow / Distracted
+26,VS Code,Development,Coding / Technical Work,2026-02-10 22:10:16,2026-02-10 22:10:16,5,0.3,Shallow / Distracted

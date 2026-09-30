@@ -1,0 +1,12 @@
+{
+  "peak_focus_hours": [],
+  "avg_session_duration": 19,
+  "deep_work_ratio": 0.0,
+  "top_categories": {
+    "Unknown": 10,
+    "Development": 7,
+    "Productivity": 4,
+    "Browsing": 3,
+    "Utilities": 2
+  }
+}

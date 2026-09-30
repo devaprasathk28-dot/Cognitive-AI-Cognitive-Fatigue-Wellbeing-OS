@@ -1,0 +1,18 @@
+{
+    "onboarding_done": true,
+    "auto_start": false,
+    "focus_duration": 45,
+    "break_duration": 10,
+    "focus_mode": false,
+    "goal_screen_time_hours": 8,
+    "goal_focus_hours": 5,
+    "goal_distraction_mins": 75,
+    "ai_enabled": true,
+    "distraction_ai": true,
+    "notifications": true,
+    "strict_mode": false,
+    "theme": "Midnight",
+    "density": "Comfortable",
+    "accent": "Amber",
+    "coach_style": "Analytical"
+}

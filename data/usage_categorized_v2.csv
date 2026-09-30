@@ -1,0 +1,257 @@
+timestamp,raw_app_name,app_display_name,category,duration_sec,detection_method
+2026-02-04 23:19:47,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:19:52,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:19:57,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:20:02,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:20:07,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:20:12,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:20:17,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:20:22,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:20:27,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:20:32,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:20:37,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:20:42,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:20:47,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:20:52,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:20:57,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:21:02,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:21:07,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:21:12,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:21:17,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:21:22,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:21:27,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:21:32,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:21:37,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:21:42,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:21:47,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:21:52,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:21:57,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:22:02,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:22:07,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:22:12,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:22:17,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:22:22,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:22:27,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:22:32,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:22:37,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:22:42,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:22:47,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:22:52,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:22:57,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:23:02,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:23:07,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:23:12,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:23:17,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:23:22,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:23:27,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:23:32,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:23:37,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:23:42,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:23:47,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:23:52,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:23:57,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:24:02,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:24:07,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:24:12,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:24:17,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:24:22,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:24:27,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:24:32,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:24:37,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-04 23:24:42,System Idle Process,System Idle Process,Unknown,5,ML
+2026-02-10 21:52:49,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,usage_categorizer_ml.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-10 21:52:55,notepad.exe,Notepad,Productivity,General Usage,0.45,5,REGISTRY,*terraform { - Notepad
+2026-02-10 21:53:00,notepad.exe,Notepad,Productivity,General Usage,0.45,5,REGISTRY,*terraform { - Notepad
+2026-02-10 21:53:05,searchhost.exe,Searchhost,Unknown,General Usage,0.1,5,ML,Search
+2026-02-10 21:53:10,linkedin.exe,Linkedin,Browsing,Professional Networking,0.5,5,KEYWORD,LinkedIn
+2026-02-10 21:53:15,notepad.exe,Notepad,Productivity,General Usage,0.45,5,REGISTRY,*terraform { - Notepad
+2026-02-10 21:53:20,explorer.exe,File Explorer,Utilities,General Usage,0.45,5,REGISTRY,This PC - File Explorer
+2026-02-10 21:53:25,searchhost.exe,Searchhost,Unknown,General Usage,0.1,5,ML,Search
+2026-02-10 21:53:30,searchhost.exe,Searchhost,Unknown,General Usage,0.1,5,ML,Search
+2026-02-10 21:53:35,winword.exe,Microsoft Word,Productivity,General Usage,0.35,5,REGISTRY,Opening - Word
+2026-02-10 21:53:40,winword.exe,Microsoft Word,Productivity,General Usage,0.35,5,REGISTRY,Word
+2026-02-10 21:53:45,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,usage_categorizer_ml.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-10 21:53:50,applicationframehost.exe,Applicationframehost,Unknown,General Usage,0.2,5,ML,Solitaire & Casual Games
+2026-02-10 21:53:55,applicationframehost.exe,Applicationframehost,Unknown,General Usage,0.2,5,ML,Solitaire & Casual Games
+2026-02-10 21:54:00,applicationframehost.exe,Applicationframehost,Unknown,General Usage,0.2,5,ML,Solitaire & Casual Games
+2026-02-10 21:54:05,searchhost.exe,Searchhost,Unknown,General Usage,0.1,5,ML,Search
+2026-02-10 21:54:10,searchhost.exe,Searchhost,Unknown,General Usage,0.1,5,ML,Search
+2026-02-10 21:54:15,applicationframehost.exe,Applicationframehost,Unknown,General Usage,0.1,5,ML,Microsoft Store
+2026-02-10 21:54:20,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,usage_categorizer_ml.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-10 21:54:25,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,usage_categorizer_ml.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-10 21:54:30,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,usage_categorizer_ml.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-10 21:54:35,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,usage_categorizer_ml.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-10 21:54:40,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,usage_categorized_v2.csv - cognitive_fatigue_ai - Visual Studio Code
+2026-02-10 21:54:45,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-10 21:54:50,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-10 21:54:55,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,usage_categorized_v2.csv - cognitive_fatigue_ai - Visual Studio Code
+2026-02-10 21:55:00,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,usage_categorized_v2.csv - cognitive_fatigue_ai - Visual Studio Code
+2026-02-10 22:09:16,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,usage_categorizer_ml.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-10 22:09:21,explorer.exe,File Explorer,Utilities,General Usage,0.45,5,REGISTRY,Documents - File Explorer
+2026-02-10 22:09:26,searchhost.exe,Searchhost,Unknown,General Usage,0.1,5,ML,Search
+2026-02-10 22:09:31,linkedin.exe,Linkedin,Browsing,Professional Networking,0.5,5,KEYWORD,LinkedIn
+2026-02-10 22:09:36,searchhost.exe,Searchhost,Unknown,General Usage,0.1,5,ML,Search
+2026-02-10 22:09:41,applicationframehost.exe,Applicationframehost,Unknown,General Usage,0.2,5,ML,Solitaire & Casual Games
+2026-02-10 22:09:46,applicationframehost.exe,Applicationframehost,Unknown,General Usage,0.2,5,ML,Solitaire & Casual Games
+2026-02-10 22:09:51,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,usage_categorizer_ml.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-10 22:09:56,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,usage_categorizer_ml.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-10 22:10:01,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,usage_categorizer_ml.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-10 22:10:06,searchhost.exe,Searchhost,Unknown,General Usage,0.1,5,ML,Search
+2026-02-10 22:10:11,notepad.exe,Notepad,Productivity,General Usage,0.45,5,REGISTRY,*terraform { - Notepad
+2026-02-10 22:10:16,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,usage_categorizer_ml.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 21:24:21,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,usage_categorizer_ml.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 21:24:26,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,usage_categorizer_ml.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 21:24:31,explorer.exe,File Explorer,Utilities,General Usage,0.45,5,REGISTRY,This PC - File Explorer
+2026-02-12 21:24:36,explorer.exe,File Explorer,Utilities,General Usage,0.45,5,REGISTRY,This PC - File Explorer
+2026-02-12 21:24:41,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,usage_categorizer_ml.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 21:24:46,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,usage_categorizer_ml.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 21:24:51,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 21:24:56,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 21:25:02,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 21:25:07,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,usage_categorizer_ml.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:15:59,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:16:04,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:16:09,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:16:14,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:16:19,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:16:24,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:16:29,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:16:34,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:16:39,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:16:44,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:16:49,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:16:54,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:16:59,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:17:04,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:17:09,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:17:14,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:17:19,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:17:24,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:17:29,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:17:34,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:17:39,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:17:44,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:17:49,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:17:54,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:17:59,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:18:04,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:18:10,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:18:15,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:18:20,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:18:25,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:18:30,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:18:35,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:18:40,idle,System Idle,Idle,User Inactive,0.9,5,SYSTEM,No keyboard/mouse activity
+2026-02-12 22:18:45,idle,System Idle,Idle,User Inactive,0.9,5,SYSTEM,No keyboard/mouse activity
+2026-02-12 22:18:50,idle,System Idle,Idle,User Inactive,0.9,5,SYSTEM,No keyboard/mouse activity
+2026-02-12 22:18:55,idle,System Idle,Idle,User Inactive,0.9,5,SYSTEM,No keyboard/mouse activity
+2026-02-12 22:19:00,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:19:05,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:19:10,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:19:15,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:19:20,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:19:25,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:19:30,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:19:35,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:19:40,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:19:45,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:19:50,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:19:55,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,● fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:20:00,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,● fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:20:05,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:20:10,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:20:15,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:20:20,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:20:25,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:20:30,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:20:35,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:20:40,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:20:45,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:20:50,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:20:55,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:21:00,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:21:05,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:21:10,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:21:15,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:21:20,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:21:25,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:21:30,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:21:35,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:21:40,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:21:45,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:21:50,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:21:55,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:22:00,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_score_runner.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:22:05,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:22:10,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:22:15,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:22:20,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_score_runner.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:22:25,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,● fatigue_score_runner.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:22:30,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,● fatigue_score_runner.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:22:35,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,● fatigue_score_runner.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:22:40,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:22:45,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:22:50,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:22:55,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:23:00,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:23:05,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:23:10,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,● fatigue_score_runner.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:23:15,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:23:20,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:23:25,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:23:30,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:23:35,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:23:40,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:23:45,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:23:50,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:23:55,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:24:00,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:24:05,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:24:10,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:24:15,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,fatigue_analyzer.py - cognitive_fatigue_ai - Visual Studio Code
+2026-02-12 22:24:20,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:24:25,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:24:30,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:24:35,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:24:40,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:24:45,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:24:50,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:24:55,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:25:00,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:25:05,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:25:10,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-02-12 22:25:15,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-03-07 20:28:23,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,"monitor/usage_categorizer_ml.py (Original ↔ Current, Editable) (usage_categorizer_ml.py_original_1772895489969 ↔ usage_categorizer_ml.py) - cognitive_fatigue_ai - Visual Studio Code"
+2026-03-07 20:28:28,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,"monitor/usage_categorizer_ml.py (Original ↔ Current, Editable) (usage_categorizer_ml.py_original_1772895489969 ↔ usage_categorizer_ml.py) - cognitive_fatigue_ai - Visual Studio Code"
+2026-03-07 20:28:33,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,engine_bridge.py - cognitive_fatigue_ai - Visual Studio Code
+2026-03-07 20:28:38,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,engine_bridge.py - cognitive_fatigue_ai - Visual Studio Code
+2026-03-07 20:28:43,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,engine_bridge.py - cognitive_fatigue_ai - Visual Studio Code
+2026-03-07 20:28:48,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,engine_bridge.py - cognitive_fatigue_ai - Visual Studio Code
+2026-03-07 20:28:53,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,engine_bridge.py - cognitive_fatigue_ai - Visual Studio Code
+2026-03-07 20:28:58,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,engine_bridge.py - cognitive_fatigue_ai - Visual Studio Code
+2026-03-07 20:29:03,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,engine_bridge.py - cognitive_fatigue_ai - Visual Studio Code
+2026-03-07 20:29:08,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,engine_bridge.py - cognitive_fatigue_ai - Visual Studio Code
+2026-03-07 20:29:13,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,engine_bridge.py - cognitive_fatigue_ai - Visual Studio Code
+2026-03-07 20:29:18,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,engine_bridge.py - cognitive_fatigue_ai - Visual Studio Code
+2026-03-07 20:29:23,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-03-07 20:29:28,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-03-07 20:29:33,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-03-07 20:29:38,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,engine_bridge.py - cognitive_fatigue_ai - Visual Studio Code
+2026-03-07 20:29:43,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,engine_bridge.py - cognitive_fatigue_ai - Visual Studio Code
+2026-03-07 20:29:48,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,engine_bridge.py - cognitive_fatigue_ai - Visual Studio Code
+2026-03-07 20:29:53,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-03-07 20:29:58,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-03-07 20:30:03,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-03-07 20:30:08,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,engine_bridge.py - cognitive_fatigue_ai - Visual Studio Code
+2026-03-07 20:30:13,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,engine_bridge.py - cognitive_fatigue_ai - Visual Studio Code
+2026-03-07 20:30:18,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,engine_bridge.py - cognitive_fatigue_ai - Visual Studio Code
+2026-03-07 20:30:23,code.exe,VS Code,Development,General Usage,0.45,5,REGISTRY,engine_bridge.py - cognitive_fatigue_ai - Visual Studio Code
+2026-03-07 20:30:28,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-03-07 20:30:33,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-03-07 20:30:38,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-03-07 20:30:43,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-03-07 20:30:48,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-03-07 20:30:53,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-03-07 20:30:58,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-03-07 20:31:03,chrome.exe,Google Chrome,Browsing,General Usage,0.45,5,REGISTRY,AI ML DS DL projects - Google Chrome
+2026-03-07 20:31:08,idle,System Idle,Idle,User Inactive,0.9,5,SYSTEM,No keyboard/mouse activity

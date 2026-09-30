@@ -1,0 +1,352 @@
+[
+  {
+    "timestamp": "2026-05-05T22:36:54.144989",
+    "app": "Antigravity.exe",
+    "category": "Other",
+    "duration": 5,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T22:41:13.381430",
+    "app": "python.exe",
+    "category": "Other",
+    "duration": 35,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T22:41:18.416962",
+    "app": "Antigravity.exe",
+    "category": "Other",
+    "duration": 5,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T22:41:33.464676",
+    "app": "python.exe",
+    "category": "Other",
+    "duration": 15,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T22:41:48.527159",
+    "app": "Antigravity.exe",
+    "category": "Other",
+    "duration": 15,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T22:48:18.652436",
+    "app": "chrome.exe",
+    "category": "Browsing",
+    "duration": 390,
+    "fatigue": 1.09
+  },
+  {
+    "timestamp": "2026-05-05T22:56:56.850272",
+    "app": "Antigravity.exe",
+    "category": "Other",
+    "duration": 5,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T22:57:06.908598",
+    "app": "python.exe",
+    "category": "Other",
+    "duration": 10,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T22:58:36.979816",
+    "app": "Antigravity.exe",
+    "category": "Other",
+    "duration": 90,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T22:59:02.014682",
+    "app": "Antigravity.exe",
+    "category": "Other",
+    "duration": 25,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T22:59:12.063499",
+    "app": "python.exe",
+    "category": "Other",
+    "duration": 10,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:01:23.272755",
+    "app": "Antigravity.exe",
+    "category": "Other",
+    "duration": 5,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:01:28.319736",
+    "app": "python.exe",
+    "category": "Other",
+    "duration": 5,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:01:33.356588",
+    "app": "SnippingTool.exe",
+    "category": "Other",
+    "duration": 5,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:01:38.399875",
+    "app": "python.exe",
+    "category": "Other",
+    "duration": 5,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:01:48.434813",
+    "app": "SnippingTool.exe",
+    "category": "Other",
+    "duration": 10,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:01:53.491703",
+    "app": "python.exe",
+    "category": "Other",
+    "duration": 5,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:01:58.524391",
+    "app": "SnippingTool.exe",
+    "category": "Other",
+    "duration": 5,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:02:03.573924",
+    "app": "python.exe",
+    "category": "Other",
+    "duration": 5,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:02:08.612737",
+    "app": "ShellExperienceHost.exe",
+    "category": "Other",
+    "duration": 5,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:02:18.635556",
+    "app": "python.exe",
+    "category": "Other",
+    "duration": 10,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:02:38.676714",
+    "app": "Antigravity.exe",
+    "category": "Other",
+    "duration": 20,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:02:43.723944",
+    "app": "python.exe",
+    "category": "Other",
+    "duration": 5,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:02:53.757151",
+    "app": "SnippingTool.exe",
+    "category": "Other",
+    "duration": 10,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:03:08.817260",
+    "app": "python.exe",
+    "category": "Other",
+    "duration": 15,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:03:13.864121",
+    "app": "Antigravity.exe",
+    "category": "Other",
+    "duration": 5,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:03:38.923815",
+    "app": "Antigravity.exe",
+    "category": "Other",
+    "duration": 25,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:06:59.190421",
+    "app": "Antigravity.exe",
+    "category": "Other",
+    "duration": 5,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:07:24.255365",
+    "app": "python.exe",
+    "category": "Other",
+    "duration": 25,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:07:39.294983",
+    "app": "Antigravity.exe",
+    "category": "Other",
+    "duration": 15,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:07:44.344626",
+    "app": "python.exe",
+    "category": "Other",
+    "duration": 5,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:10:29.417226",
+    "app": "Antigravity.exe",
+    "category": "Other",
+    "duration": 165,
+    "fatigue": 0.02
+  },
+  {
+    "timestamp": "2026-05-05T23:10:34.479268",
+    "app": "python.exe",
+    "category": "Other",
+    "duration": 5,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:11:04.150996",
+    "app": "Antigravity.exe",
+    "category": "Other",
+    "duration": 5,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:13:54.219483",
+    "app": "python.exe",
+    "category": "Other",
+    "duration": 170,
+    "fatigue": 0.02
+  },
+  {
+    "timestamp": "2026-05-05T23:13:59.278556",
+    "app": "Antigravity.exe",
+    "category": "Other",
+    "duration": 5,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:14:09.313455",
+    "app": "chrome.exe",
+    "category": "Browsing",
+    "duration": 10,
+    "fatigue": 1.04
+  },
+  {
+    "timestamp": "2026-05-05T23:14:24.364347",
+    "app": "python.exe",
+    "category": "Other",
+    "duration": 15,
+    "fatigue": 1.04
+  },
+  {
+    "timestamp": "2026-05-05T23:14:34.400940",
+    "app": "SnippingTool.exe",
+    "category": "Other",
+    "duration": 10,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:15:09.460711",
+    "app": "python.exe",
+    "category": "Other",
+    "duration": 35,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:15:14.497499",
+    "app": "SnippingTool.exe",
+    "category": "Other",
+    "duration": 5,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:15:24.561849",
+    "app": "ShellExperienceHost.exe",
+    "category": "Other",
+    "duration": 10,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:15:34.599957",
+    "app": "SnippingTool.exe",
+    "category": "Other",
+    "duration": 10,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:15:49.666918",
+    "app": "python.exe",
+    "category": "Other",
+    "duration": 15,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:15:54.702219",
+    "app": "SnippingTool.exe",
+    "category": "Other",
+    "duration": 5,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-05T23:15:59.757251",
+    "app": "python.exe",
+    "category": "Other",
+    "duration": 5,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-06T13:05:19.591685",
+    "app": "Antigravity.exe",
+    "category": "Other",
+    "duration": 5,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-06T13:07:09.681037",
+    "app": "python.exe",
+    "category": "Other",
+    "duration": 110,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-06T13:07:14.742468",
+    "app": "Antigravity.exe",
+    "category": "Other",
+    "duration": 5,
+    "fatigue": 0
+  },
+  {
+    "timestamp": "2026-05-06T13:14:44.964398",
+    "app": "chrome.exe",
+    "category": "Browsing",
+    "duration": 450,
+    "fatigue": 0.94
+  }
+]

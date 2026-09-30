@@ -1,0 +1,8 @@
+{
+    "baseline_load_factor": 1.4,
+    "baseline_recovery_factor": 1.4,
+    "dopamine_sensitivity": 1.0,
+    "fatigue_adaptation_rate": 0.02,
+    "sessions_observed": 1031,
+    "last_updated": "2026-05-20 14:40:27"
+}

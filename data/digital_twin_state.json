@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-03-07 21:31:30",
+  "current_state": "Normal",
+  "fatigue_score": 0,
+  "burnout_probability": 0.047,
+  "predicted_30min_fatigue": 0.94,
+  "predicted_4h_fatigue": 1.65,
+  "recommended_action": "Continue work"
+}
