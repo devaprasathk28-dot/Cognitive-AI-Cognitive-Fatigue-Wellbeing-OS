@@ -79,47 +79,42 @@ Cognitive AI solves this by continuously monitoring digital strain and actively 
 ## 4. System Architecture & Data Flow
 
 ```mermaid
-flowchart TB
-    subgraph WindowsDesktop ["🖥️ Windows OS Environment"]
+flowchart TD
+    subgraph WindowsDesktop ["Windows OS Environment"]
         User["User Activity & Windows Events"]
         Win32API["Win32 GUI / Process Subsystem"]
-        User --> |Foreground Window & Title| Win32API
+        User --> |"Foreground Window & Title"| Win32API
     end
 
-    subgraph BackgroundWorker ["⚙️ Background Engine Worker (QThread)"]
-        Tracker["monitor/live_usage_tracker.py<br/>(Polls active window & PID)"]
-        Classifier["monitor/smart_app_classifier.py<br/>(Category & Intent Inference)"]
-        FatigueModel["monitor/fatigue_score_engine.py<br/>(Load, Circadian & Momentum Equations)"]
-        BreakRL["monitor/rl_break_optimizer.py<br/>(Adaptive Micro-Break Decisions)"]
-        
-        Win32API --> Tracker
+    subgraph BackgroundWorker ["Background Engine Worker (QThread)"]
+        Tracker["monitor/live_usage_tracker.py<br/>Polls active window & PID"]
+        Classifier["monitor/smart_app_classifier.py<br/>Category & Intent Inference"]
+        FatigueModel["monitor/fatigue_score_engine.py<br/>Load, Circadian & Momentum Equations"]
+        BreakRL["monitor/rl_break_optimizer.py<br/>Adaptive Micro-Break Decisions"]
+
         Tracker --> Classifier
         Classifier --> FatigueModel
         FatigueModel --> BreakRL
     end
 
-    subgraph DataStorage ["💾 Local Data Storage Layer"]
+    subgraph DataStorage ["Local Data Storage Layer"]
         DB[("SQLite Database<br/>data/cognitive.db")]
         SettingsJSON["user_settings.json"]
-        
-        FatigueModel --> |Persist Sessions| DB
-        BreakRL --> |Persist Alerts| DB
     end
 
-    subgraph PresentationLayer ["🎨 PyQt6 Desktop UI Surface"]
-        MainWindow["main_ui_clean.py<br/>(Single Instance & Navigation)"]
-        TopBar["ui/components/topbar.py<br/>(Live Status & Focus Sync)"]
-        Dashboard["DashboardPage<br/>(Score, Deep Work, Live Feed)"]
-        Insights["InsightsPage<br/>(Automated Pattern Intelligence)"]
-        FocusEngine["FocusPage<br/>(Pomodoro, Deep Work & Chimes)"]
-        AnalyticsPage["AnalyticsPage<br/>(Weekly Telemetry & Bar Charts)"]
-        AICoach["ChatPage<br/>(Contextual Companion & Memory)"]
-        GoalsPage["GoalsPage<br/>(Live Habit Budgets & Streaks)"]
-        NotifsPage["NotificationsPage<br/>(Event & Alert History)"]
-        SettingsPage["SettingsPage<br/>(Autostart, Themes & Backups)"]
+    subgraph PresentationLayer ["PyQt6 Desktop UI Surface"]
+        MainWindow["main_ui_clean.py<br/>Single Instance & Navigation"]
+        TopBar["TopBar<br/>Live Status & Focus Sync"]
+        Dashboard["DashboardPage<br/>Score, Deep Work, Live Feed"]
+        Insights["InsightsPage<br/>Automated Pattern Intelligence"]
+        FocusEngine["FocusPage<br/>Pomodoro, Deep Work & Chimes"]
+        AnalyticsPage["AnalyticsPage<br/>Weekly Telemetry & Bar Charts"]
+        AICoach["ChatPage<br/>Contextual Companion & Memory"]
+        GoalsPage["GoalsPage<br/>Live Habit Budgets & Streaks"]
+        NotifsPage["NotificationsPage<br/>Event & Alert History"]
+        SettingsPage["SettingsPage<br/>Autostart, Themes & Backups"]
         Tray["Windows System Tray Icon"]
-        
-        BackgroundWorker --> |Qt Signals (data_signal)| MainWindow
+
         MainWindow --> TopBar
         MainWindow --> Dashboard
         MainWindow --> Insights
@@ -131,6 +126,11 @@ flowchart TB
         MainWindow --> SettingsPage
         MainWindow --> Tray
     end
+
+    Win32API --> Tracker
+    FatigueModel --> |"Persist Sessions"| DB
+    BreakRL --> |"Persist Alerts"| DB
+    FatigueModel --> |"Qt Signals: data_signal"| MainWindow
 ```
 
 ---
@@ -401,5 +401,3 @@ Cognitive AI is engineered around strict privacy-first principles:
 - **No Screen Captures:** Zero screenshots or video buffers are stored or transmitted.
 - **Ephemeral Telemetry:** Window titles are classified strictly in volatile RAM into broad categories before discarding sensitive strings.
 - **Full Data Sovereignty:** All historical records are stored locally in SQLite (`data/cognitive.db`). You can inspect, backup, export, or delete your database at any time from the Preferences screen.
-#   C o g n i t i v e - A I - C o g n i t i v e - F a t i g u e - W e l l b e i n g - O S  
- 
