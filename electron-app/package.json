@@ -1,0 +1,23 @@
+{
+  "name": "cognitive-ai-desktop",
+  "version": "1.0.0",
+  "description": "Cognitive Fatigue & Wellbeing Desktop OS",
+  "main": "dist-electron/main/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build:electron": "tsc -p tsconfig.electron.json",
+    "build:renderer": "vite build",
+    "build": "npm run build:electron && vite build",
+    "start": "electron dist-electron/main/main.js"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.4"
+  },
+  "devDependencies": {
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/node": "^22.10.1",
+    "electron": "^33.2.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3"
+  }
+}

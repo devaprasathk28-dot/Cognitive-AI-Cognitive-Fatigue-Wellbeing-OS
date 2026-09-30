@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+    "lib": ["ES2022"],
+    "skipLibCheck": true,
+    "strict": true,
+    "outDir": "dist-electron",
+    "esModuleInterop": true
+  },
+  "include": ["src/main", "src/preload"]
+}

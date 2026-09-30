@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cognitive AI — Fatigue & Wellbeing OS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/renderer/index.css" />
+</head>
+<body class="dark-theme">
+  <!-- Main Application Wrapper -->
+  <div id="app" class="app-container">
+    
+    <!-- Left Navigation Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <div class="brand-logo">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2a10 10 0 1 0 10 10H12V2z"></path>
+            <path d="M12 12 2.1 12a10.1 10.1 0 0 0 1.8 5.7"></path>
+            <path d="m12 12 7.1 7.1"></path>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">Cognitive OS</span>
+          <span class="brand-badge">PRO v1.0</span>
+        </div>
+      </div>
+
+      <!-- Navigation Links -->
+      <nav class="sidebar-nav">
+        <button class="nav-item active" data-page="dashboard" id="nav-dashboard">
+          <span class="nav-icon">⚡</span>
+          <span class="nav-label">Dashboard</span>
+        </button>
+        <button class="nav-item" data-page="focus" id="nav-focus">
+          <span class="nav-icon">🎯</span>
+          <span class="nav-label">Focus Sprint</span>
+          <span class="nav-pulse-dot"></span>
+        </button>
+        <button class="nav-item" data-page="insights" id="nav-insights">
+          <span class="nav-icon">💡</span>
+          <span class="nav-label">Insights</span>
+        </button>
+        <button class="nav-item" data-page="analytics" id="nav-analytics">
+          <span class="nav-icon">📊</span>
+          <span class="nav-label">Deep Analytics</span>
+        </button>
+        <button class="nav-item" data-page="coach" id="nav-coach">
+          <span class="nav-icon">🤖</span>
+          <span class="nav-label">AI Coach</span>
+        </button>
+        <button class="nav-item" data-page="streaks" id="nav-streaks">
+          <span class="nav-icon">🏆</span>
+          <span class="nav-label">Streaks & Goals</span>
+        </button>
+        <button class="nav-item" data-page="notifications" id="nav-notifications">
+          <span class="nav-icon">🔔</span>
+          <span class="nav-label">Audit Log</span>
+          <span class="notif-badge" id="sidebar-notif-count">0</span>
+        </button>
+        <button class="nav-item" data-page="settings" id="nav-settings">
+          <span class="nav-icon">⚙️</span>
+          <span class="nav-label">Settings</span>
+        </button>
+      </nav>
+
+      <!-- Sidebar Footer State -->
+      <div class="sidebar-footer">
+        <div class="engine-status-card" id="engine-status-card">
+          <div class="engine-dot connected" id="engine-status-dot"></div>
+          <div class="engine-text">
+            <span class="engine-label" id="engine-status-text">Backend Connected</span>
+            <span class="engine-sub" id="engine-status-sub">Tracking Active</span>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-viewport">
+      <!-- Universal Top Header -->
+      <header class="topbar">
+        <div class="topbar-left">
+          <div class="search-trigger" id="cmd-palette-btn" title="Command Palette (Ctrl+K)">
+            <span class="search-icon">🔍</span>
+            <span class="search-placeholder">Quick Search or Command...</span>
+            <kbd class="kbd-shortcut">Ctrl+K</kbd>
+          </div>
+        </div>
+
+        <div class="topbar-right">
+          <!-- Active Foreground App Badge -->
+          <div class="active-app-pill" id="topbar-active-app" title="Current Active Foreground Window">
+            <span class="pill-dot"></span>
+            <span class="pill-label" id="topbar-app-name">Initializing...</span>
+            <span class="pill-category" id="topbar-app-cat">General</span>
+          </div>
+
+          <!-- Focus Shield Quick Toggle -->
+          <button class="focus-shield-btn" id="focus-shield-toggle" title="Toggle Focus Shield Mode">
+            <span class="shield-icon">🛡️</span>
+            <span class="shield-text" id="focus-shield-label">Focus Shield: OFF</span>
+          </button>
+
+          <!-- 4-7-8 Mindful Breath Button -->
+          <button class="breathe-quick-btn" id="breathe-trigger-btn" title="Take a 4-7-8 Restorative Breathing Break">
+            <span>🌬️ Mindful Break</span>
+          </button>
+        </div>
+      </header>
+
+      <!-- Page Container -->
+      <div class="content-scroll" id="content-area">
+        <!-- Rendered dynamically by main.ts -->
+      </div>
+    </main>
+  </div>
+
+  <!-- Global Command Palette Modal (Ctrl+K) -->
+  <div class="modal-overlay hidden" id="cmd-palette-modal">
+    <div class="cmd-palette-box">
+      <div class="cmd-input-wrap">
+        <span class="cmd-search-icon">⌘</span>
+        <input type="text" id="cmd-palette-input" placeholder="Type a command or page name..." autofocus />
+        <kbd class="cmd-esc-tag">ESC</kbd>
+      </div>
+      <div class="cmd-results" id="cmd-results-list">
+        <!-- Dynamic list -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Guided 4-7-8 Mindful Breathing Modal -->
+  <div class="modal-overlay hidden" id="breathing-modal">
+    <div class="breathing-card">
+      <button class="modal-close-btn" id="breathing-close-btn">✕</button>
+      <div class="breathing-header">
+        <span class="breathing-pill">COGNITIVE RESTORATION</span>
+        <h2 class="breathing-title">4-7-8 Mindful Breathing</h2>
+        <p class="breathing-subtitle">Regulate autonomic nervous system, suppress mental fatigue, and reset focus stamina.</p>
+      </div>
+
+      <div class="breathing-visual-area">
+        <div class="breathing-circle-outer" id="breathing-circle">
+          <div class="breathing-circle-inner">
+            <span class="breath-phase-text" id="breath-phase-text">Ready</span>
+            <span class="breath-counter-text" id="breath-counter-text">4s</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="breathing-stats">
+        <div class="breath-stat-chip">
+          <span class="stat-name">Cycle</span>
+          <span class="stat-value" id="breath-cycle-count">1 of 4</span>
+        </div>
+        <div class="breath-stat-chip">
+          <span class="stat-name">Estimated Recovery</span>
+          <span class="stat-value text-emerald">+18% Focus</span>
+        </div>
+      </div>
+
+      <div class="breathing-actions">
+        <button class="btn btn-secondary" id="breathing-cancel-btn">Close</button>
+        <button class="btn btn-primary" id="breathing-start-btn">Begin Session</button>
+        <button class="btn btn-success hidden" id="breathing-complete-btn">Log & Finish Break</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="./src/renderer/main.ts"></script>
+</body>
+</html>

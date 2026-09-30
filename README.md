@@ -4,10 +4,10 @@
 
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](#)
 [![Python Version](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-3776AB?style=for-the-badge&logo=python&logoColor=white)](#)
-[![Framework](https://img.shields.io/badge/UI-PyQt6%20Modern%20Dark-41CD52?style=for-the-badge&logo=qt&logoColor=white)](#)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](#)
+[![UI Framework](https://img.shields.io/badge/UI-Electron%20%2B%20PyQt6-47848F?style=for-the-badge&logo=electron&logoColor=white)](#)
 [![Data Engine](https://img.shields.io/badge/Storage-SQLite3%20Local-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](#)
 [![Privacy](https://img.shields.io/badge/Privacy-100%25%20On--Device-brightgreen?style=for-the-badge)](#)
-[![Architecture](https://img.shields.io/badge/Architecture-Asynchronous%20Event--Driven-purple?style=for-the-badge)](#)
 
 <p align="center">
   <strong>An autonomous, privacy-preserving desktop operating system that monitors digital work patterns, models mental fatigue in real time, and prevents burnout through intelligent micro-breaks and structured focus flow states.</strong>
@@ -358,7 +358,26 @@ cognitive_fatigue_ai_clean/
 
 ### 9.3. Running the Application
 
-Launch the desktop client:
+You can launch Cognitive AI using either the **Electron + TypeScript Glassmorphic UI** or the **Native PyQt6 Desktop UI**:
+
+#### Option A: Modern Electron + TypeScript Desktop UI (Recommended)
+This delivers the high-fidelity obsidian glassmorphic interface, Web Audio binaural soundscapes, animated SVG stamina rings, and confetti celebrations:
+
+```powershell
+# 1. Start the zero-dependency Python bridge server (Terminal 1)
+python bridge_server.py
+
+# 2. Launch the Electron Desktop application (Terminal 2)
+cd electron-app
+npm start
+```
+*Tip: To run in hot-reload developer mode:*
+```powershell
+cd electron-app
+npm run dev
+```
+
+#### Option B: Native PyQt6 Desktop UI
 ```powershell
 python main_ui_clean.py
 ```

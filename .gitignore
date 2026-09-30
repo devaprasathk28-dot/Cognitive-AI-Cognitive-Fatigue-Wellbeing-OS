@@ -18,3 +18,9 @@ env/
 *.log
 data/reports/*.html
 data/cognitive.db
+
+# Electron & Node build artifacts
+node_modules/
+electron-app/node_modules/
+electron-app/dist/
+electron-app/dist-electron/
