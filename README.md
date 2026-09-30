@@ -358,31 +358,39 @@ cognitive_fatigue_ai_clean/
 
 ### 9.3. Running the Application
 
-You can launch Cognitive AI using either the **Electron + TypeScript Glassmorphic UI** or the **Native PyQt6 Desktop UI**:
+Cognitive AI features an **intelligent master launcher** (`run.py`, `run_app.bat`, and `run_app.ps1`) that automatically initializes the background tracking daemon, connects to the local database, and launches the premier desktop UI:
 
-#### Option A: Modern Electron + TypeScript Desktop UI (Recommended)
-This delivers the high-fidelity obsidian glassmorphic interface, Web Audio binaural soundscapes, animated SVG stamina rings, and confetti celebrations:
-
+#### ⚡ Quick Start (One Command)
 ```powershell
-# 1. Start the zero-dependency Python bridge server (Terminal 1)
-python bridge_server.py
-
-# 2. Launch the Electron Desktop application (Terminal 2)
-cd electron-app
-npm start
+# Double-click run_app.bat or run:
+.\run_app.bat
 ```
-*Tip: To run in hot-reload developer mode:*
+*Or via PowerShell:*
 ```powershell
-cd electron-app
-npm run dev
+.\run_app.ps1
+```
+*Or via Python:*
+```powershell
+python run.py
 ```
 
-#### Option B: Native PyQt6 Desktop UI
-```powershell
-python main_ui_clean.py
-```
+The master launcher automatically detects your environment:
+- If Node.js and Electron are installed, it automatically launches the **Modern Electron + TypeScript Glassmorphic UI**.
+- If Node is not detected, it seamlessly falls back to the **Native PyQt6 Desktop UI**.
 
-The application window will initialize. Upon first launch, an onboarding flow configures your baseline settings. Once completed, Cognitive AI runs quietly in the system tray.
+#### Manual Direct Commands:
+- **Force Electron Desktop UI:**
+  ```powershell
+  python run.py --electron
+  ```
+- **Force Native PyQt6 UI:**
+  ```powershell
+  python run.py --qt
+  ```
+- **Run Bridge Telemetry Server Standalone:**
+  ```powershell
+  python run.py --bridge-only
+  ```
 
 ---
 

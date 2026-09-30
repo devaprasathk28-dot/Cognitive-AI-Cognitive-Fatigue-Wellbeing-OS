@@ -135,4 +135,7 @@ export const api = {
       method: 'POST',
       body: JSON.stringify(settings),
     }),
+
+  generateReport: (): Promise<{ success: boolean; report_path: string; filename: string }> =>
+    request<{ success: boolean; report_path: string; filename: string }>('/api/report/generate', { method: 'POST' }),
 };

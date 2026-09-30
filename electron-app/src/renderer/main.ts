@@ -153,6 +153,17 @@ function setupTopBarActions() {
   breatheBtn?.addEventListener('click', () => {
     openBreathingModal();
   });
+
+  // Frameless Window Controls
+  document.getElementById('win-min-btn')?.addEventListener('click', () => {
+    window.electronAPI?.minimizeWindow();
+  });
+  document.getElementById('win-max-btn')?.addEventListener('click', () => {
+    window.electronAPI?.maximizeWindow();
+  });
+  document.getElementById('win-close-btn')?.addEventListener('click', () => {
+    window.electronAPI?.closeWindow();
+  });
 }
 
 // ==========================================================================
@@ -721,6 +732,9 @@ async function renderAnalytics(container: HTMLElement, days = 7) {
         <button class="btn btn-secondary" id="analytics-export-btn">
           <span>📥 Export Data</span>
         </button>
+        <button class="btn btn-primary" id="analytics-report-btn">
+          <span>📑 Executive Report</span>
+        </button>
       </div>
     </div>
 
@@ -858,6 +872,27 @@ async function renderAnalytics(container: HTMLElement, days = 7) {
       a.download = `cognitive-analytics-${days}d.json`;
       a.click();
       URL.revokeObjectURL(url);
+    });
+
+    // Attach Executive Report Generation Action
+    document.getElementById('analytics-report-btn')?.addEventListener('click', async () => {
+      const btn = document.getElementById('analytics-report-btn');
+      if (btn) btn.innerHTML = '<span>⏳ Generating...</span>';
+      try {
+        const res = await api.generateReport();
+        if (res.report_path) {
+          if (window.electronAPI?.openPath) {
+            await window.electronAPI.openPath(res.report_path);
+          } else {
+            window.open(`file://${res.report_path}`, '_blank');
+          }
+          playTone(520, 0.2);
+        }
+      } catch (err) {
+        console.error('Failed to generate report', err);
+      } finally {
+        if (btn) btn.innerHTML = '<span>📑 Executive Report</span>';
+      }
     });
   } catch (err) {
     console.error('Analytics load error', err);

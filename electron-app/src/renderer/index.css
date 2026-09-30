@@ -374,6 +374,49 @@ body {
   transform: translateY(-1px);
 }
 
+/* Frameless Window Drag & Controls */
+.topbar {
+  -webkit-app-region: drag;
+}
+.search-trigger,
+.active-app-pill,
+.focus-shield-btn,
+.breathe-quick-btn,
+.window-controls,
+.sidebar,
+.content-scroll {
+  -webkit-app-region: no-drag;
+}
+
+.window-controls {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 8px;
+}
+.win-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  width: 30px;
+  height: 30px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 11px;
+  transition: all 0.15s ease;
+}
+.win-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+}
+.win-close:hover {
+  background: #E11D48 !important;
+  color: #fff !important;
+}
+
 /* ==========================================================================
    CONTENT SCROLL CONTAINER
    ========================================================================== */

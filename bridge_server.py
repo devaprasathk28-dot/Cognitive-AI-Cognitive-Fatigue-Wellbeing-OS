@@ -224,6 +224,15 @@ class APIHandler(BaseHTTPRequestHandler):
             save_settings(settings)
             self._json_response({"success": True, "settings": settings})
 
+        elif path == "/api/report/generate":
+            try:
+                from analytics.report_generator import generate_executive_html_report
+                report_path = generate_executive_html_report()
+                log_notification("Report", f"Executive report generated: {os.path.basename(report_path)}")
+                self._json_response({"success": True, "report_path": report_path, "filename": os.path.basename(report_path)})
+            except Exception as e:
+                self._json_response({"error": str(e)}, status=500)
+
         else:
             self._json_response({"error": "Endpoint not found"}, status=404)
 
